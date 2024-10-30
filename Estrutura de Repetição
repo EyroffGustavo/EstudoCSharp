@@ -4,8 +4,7 @@ As estruturas de repetição permitem que um bloco de código seja executado vá
 1. while
 Descrição: Executa um bloco de código enquanto uma condição especificada for verdadeira.
 Sintaxe:
-csharp
-Copiar código
+
 while (condicao)
 {
     // Código a ser executado
@@ -14,8 +13,7 @@ Uso: Ideal quando não se sabe o número exato de iterações, mas tem uma condi
 2. for
 Descrição: Executa um bloco de código um número específico de vezes, controlado por um contador.
 Sintaxe:
-csharp
-Copiar código
+
 for (int i = 0; i < limite; i++)
 {
     // Código a ser executado
@@ -24,8 +22,7 @@ Uso: Útil quando você sabe quantas vezes quer iterar, como em contagens.
 3. foreach
 Descrição: Itera sobre todos os elementos de uma coleção (como arrays ou listas) sem precisar usar um índice.
 Sintaxe:
-csharp
-Copiar código
+
 foreach (var item in colecao)
 {
     // Código a ser executado

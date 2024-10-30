@@ -1,0 +1,71 @@
+1. Construtores
+Descrição: Construtores são métodos especiais que são chamados automaticamente quando um objeto é criado. Eles inicializam os atributos da classe.
+Sintaxe:
+
+public class NomeDaClasse
+{
+    public int Atributo;
+
+    // Construtor
+    public NomeDaClasse(int valor)
+    {
+        Atributo = valor; // Inicializa o atributo
+    }
+}
+Uso: Permitem configurar o estado inicial de um objeto no momento da sua criação.
+
+2. Palavra-chave this
+Descrição: A palavra-chave this é usada para se referir à instância atual de uma classe. É útil para diferenciar entre atributos da classe e parâmetros de método que têm o mesmo nome.
+Sintaxe:
+
+public class NomeDaClasse
+{
+    public int Atributo;
+
+    public NomeDaClasse(int atributo)
+    {
+        this.Atributo = atributo; // Diferencia o atributo do parâmetro
+    }
+}
+Uso: Ajuda a esclarecer o código, especialmente em construtores e métodos.
+
+3. Sobrecarga
+Descrição: Sobrecarga permite que uma classe tenha múltiplos métodos ou construtores com o mesmo nome, mas com diferentes parâmetros (tipos ou quantidades).
+Exemplo:
+
+public class Calculadora
+{
+    public int Somar(int a, int b)
+    {
+        return a + b;
+    }
+
+    public double Somar(double a, double b)
+    {
+        return a + b;
+    }
+}
+Uso: Facilita a implementação de métodos que realizam operações semelhantes, mas com diferentes tipos ou números de argumentos.
+
+4. Encapsulamento
+Descrição: Encapsulamento é um princípio da programação orientada a objetos que oculta os detalhes internos de uma classe e expõe apenas o que é necessário. Isso é feito usando modificadores de acesso (como public, private).
+Exemplo:
+
+public class ContaBancaria
+{
+    private decimal saldo; // Atributo privado
+
+    public void Depositar(decimal valor)
+    {
+        if (valor > 0)
+        {
+            saldo += valor; // Modifica o saldo
+        }
+    }
+
+    public decimal ObterSaldo()
+    {
+        return saldo; // Expondo apenas o saldo
+    }
+}
+Uso: Promove a segurança dos dados, evitando acesso não autorizado e modificações indevidas.

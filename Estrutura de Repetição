@@ -1,0 +1,33 @@
+Estruturas de Repetição em C#
+As estruturas de repetição permitem que um bloco de código seja executado várias vezes com base em uma condição ou uma sequência. As principais estruturas de repetição em C# são:
+
+1. while
+Descrição: Executa um bloco de código enquanto uma condição especificada for verdadeira.
+Sintaxe:
+csharp
+Copiar código
+while (condicao)
+{
+    // Código a ser executado
+}
+Uso: Ideal quando não se sabe o número exato de iterações, mas tem uma condição clara para parar.
+2. for
+Descrição: Executa um bloco de código um número específico de vezes, controlado por um contador.
+Sintaxe:
+csharp
+Copiar código
+for (int i = 0; i < limite; i++)
+{
+    // Código a ser executado
+}
+Uso: Útil quando você sabe quantas vezes quer iterar, como em contagens.
+3. foreach
+Descrição: Itera sobre todos os elementos de uma coleção (como arrays ou listas) sem precisar usar um índice.
+Sintaxe:
+csharp
+Copiar código
+foreach (var item in colecao)
+{
+    // Código a ser executado
+}
+Uso: Perfeito para quando você quer trabalhar com cada item em uma lista de forma simples e clara.

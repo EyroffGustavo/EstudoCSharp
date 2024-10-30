@@ -1,0 +1,45 @@
+1. Classe
+Descrição: Uma classe é uma estrutura que define um tipo de objeto. Ela serve como um modelo para criar instâncias (objetos) que têm características (atributos) e comportamentos (métodos).
+Sintaxe:
+
+public class NomeDaClasse
+{
+    // Atributos e métodos
+}
+Uso: Utilizada para organizar o código e representar entidades do mundo real em programas.
+2. Atributos
+Descrição: Atributos são variáveis que armazenam dados ou características de uma classe. Eles representam o estado de um objeto.
+Sintaxe:
+
+public class NomeDaClasse
+{
+    public int Atributo1;
+    private string Atributo2; // Acesso restrito
+}
+Uso: Utilizados para definir propriedades que um objeto possui, como nome, idade, altura, etc.
+3. Métodos
+Descrição: Métodos são funções definidas dentro de uma classe que descrevem o comportamento dos objetos. Eles podem manipular os atributos e executar ações.
+Sintaxe:
+
+public class NomeDaClasse
+{
+    public void MetodoExemplo()
+    {
+        // Código a ser executado
+    }
+}
+Uso: Usados para realizar operações e definir comportamentos que um objeto pode ter, como Mover(), Calcular(), Exibir(), etc.
+4. static
+Descrição: A palavra-chave static é usada para declarar membros de classe que pertencem à própria classe, em vez de a instâncias dela. Isso significa que não é necessário criar um objeto da classe para acessar membros static.
+Sintaxe:
+
+public class NomeDaClasse
+{
+    public static int AtributoStatico;
+    
+    public static void MetodoStatico()
+    {
+        // Código a ser executado
+    }
+}
+Uso: Ideal para métodos ou atributos que devem ser compartilhados entre todas as instâncias da classe, como contadores ou utilitários.
